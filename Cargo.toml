@@ -7,8 +7,12 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/diegopn/potoo-jeem-interpreter"
 homepage = "https://diegopn.github.io/potoo-site/manual/jeem/"
 readme = "README.md"
-description = "An evaluation scaffold for research on a Rust implementation of Jeem, an Arabic educational language."
+description = "A Rust interpreter for source-documented features of historical Arabic Jeem."
 
 [lib]
 name = "potoo_jeem_interpreter"
 path = "src/lib.rs"
+
+[[bin]]
+name = "potoo-jeem"
+path = "src/bin/potoo-jeem.rs"
